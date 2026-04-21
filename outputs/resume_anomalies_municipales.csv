@@ -1,0 +1,7 @@
+id_election,rows,exact_duplicates,negative_rows,zero_inscrits_or_votants,missing_blancs,valid_balance_inscrits,valid_balance_votes
+2014_muni_t1,68169,0,0,0,68169,100.0,0.0
+2014_muni_t2,22480,0,0,0,22480,100.0,0.0
+2020_muni_t1,68941,0,0,1,0,100.0,100.0
+2020_muni_t2,19594,0,0,2,0,100.0,100.0
+2026_muni_t1,70003,0,6,54,0,100.0,100.0
+2026_muni_t2,17398,0,1,44,0,100.0,100.0

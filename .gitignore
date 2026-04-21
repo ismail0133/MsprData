@@ -1,0 +1,10 @@
+.DS_Store
+.venv/
+__pycache__/
+*.pyc
+
+# Donnee brute conservee localement uniquement
+general_results.csv
+
+# Cache Matplotlib genere localement
+outputs/mplconfig/
