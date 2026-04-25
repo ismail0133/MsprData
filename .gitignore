@@ -5,3 +5,9 @@
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
+
+# Donnee brute conservee localement uniquement
+general_results.csv
+
+# Cache Matplotlib genere localement
+outputs/mplconfig/
