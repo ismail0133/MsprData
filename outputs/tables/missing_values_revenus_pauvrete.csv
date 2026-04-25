@@ -1,0 +1,6 @@
+﻿colonne,nb_manquants,pct_manquants,dtype
+taux_pauvrete,26993,86.07,float64
+code_commune,0,0.0,str
+nb_menages,0,0.0,int64
+nb_personnes,0,0.0,int64
+revenu_median,0,0.0,int64

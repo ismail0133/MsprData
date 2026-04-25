@@ -1,0 +1,9 @@
+elections_2026_raw: https://static.data.gouv.fr/resources/elections-municipales-2026-resultats-du-premier-tour/20260320-164339/municipales-2026-resultats-communes-2026-03-20.csv
+elections_2020_moins1000_raw: https://static.data.gouv.fr/resources/elections-municipales-2020-resultats/20200525-133805/2020-05-18-resultats-communes-de-moins-de-1000.txt
+elections_2020_plus1000_raw: https://static.data.gouv.fr/resources/elections-municipales-2020-resultats/20200525-133704/2020-05-18-resultats-communes-de-1000-et-plus.txt
+elections_2014_moins1000_raw: https://www.data.gouv.fr/storage/f/2014-03-25T16-08-50/muni-2014-resultats-com-moins-1000-t1.txt
+elections_2014_plus1000_raw: https://www.data.gouv.fr/storage/f/2014-03-25T16-06-23/muni-2014-resultats-com-1000-et-plus-t1.txt
+population_zip: https://www.insee.fr/fr/statistiques/fichier/6543200/base-ic-evol-struct-pop-2019-com_csv.zip
+revenus_zip: https://www.insee.fr/fr/statistiques/fichier/6036907/indic-struct-distrib-revenu-2019-COMMUNES_csv.zip
+chomage_raw: https://static.data.gouv.fr/resources/taux-de-chomage-au-sens-du-recensement/20260414-112051/taux-chomage-com.csv
+crimes_gz: https://static.data.gouv.fr/resources/bases-statistiques-communale-departementale-et-regionale-de-la-delinquance-enregistree-par-la-police-et-la-gendarmerie-nationales/20260326-124144/donnee-data.gouv-2025-geographie2025-produit-le2026-02-03.csv.gz

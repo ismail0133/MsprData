@@ -1,0 +1,7 @@
+﻿colonne,nb_manquants,pct_manquants,dtype
+nombre_chomeurs,51,0.05,float64
+population_active,51,0.05,float64
+taux_chomage,51,0.05,float64
+annee,0,0.0,int64
+code_commune,0,0.0,str
+nom_commune,0,0.0,str

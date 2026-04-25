@@ -1,0 +1,7 @@
+﻿scenario,cible,modele,mae,rmse,r2,n_train,n_test,n_features
+sans_2020,taux_participation,Random forest,1.498,3.606,0.89,35756,8986,17
+sans_2020,taux_participation,Regression lineaire,2.137,4.444,0.833,35756,8986,17
+covid_pondere,taux_participation,Random forest,3.555,6.426,0.752,63701,16000,17
+avec_covid,taux_participation,Random forest,3.632,6.456,0.749,63701,16000,17
+avec_covid,taux_participation,Regression lineaire,4.855,7.332,0.677,63701,16000,17
+covid_pondere,taux_participation,Regression lineaire,4.703,7.367,0.674,63701,16000,17

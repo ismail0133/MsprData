@@ -1,0 +1,10 @@
+﻿colonne,nb_manquants,pct_manquants,dtype
+code_commune,0,0.0,str
+population_15_29,0,0.0,float64
+population_30_44,0,0.0,float64
+population_45_59,0,0.0,float64
+population_60_74,0,0.0,float64
+population_75_plus,0,0.0,float64
+population_femmes,0,0.0,float64
+population_hommes,0,0.0,float64
+population_totale,0,0.0,float64
