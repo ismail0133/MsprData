@@ -2,69 +2,60 @@
 
 Analyse exploratoire des elections municipales 2014, 2020 et 2026, avec une base de travail pour preparer une prediction de la participation aux municipales 2032.
 
-## Analyses disponibles
+. Clarifier la décision à améliorer
+Vous l’avez fait : adapter les campagnes de communication en fonction des niveaux de participation attendus.
 
-- `eda_municipales_2014_2020_2026.py` : script d'analyse exploratoire a partir de `general_results.csv`
-- `rapport_eda_municipales.md` : synthese des constats et pistes de problematique
-- `analysis_municipales_2032.ipynb` : notebook de preparation du dataset final et de projection exploratoire 2032
-- `src/` : fonctions modulaires de chargement, preprocessing, visualisation et modelisation
-- `outputs/` : exports CSV et figures produits par les analyses
+2. Reformuler en question analytique
+Vous l’avez fait : prédire le taux de participation 2032 en corrigeant l’effet Covid de 2020.
 
-## Donnees source
+3. Identifier la variable cible
+Vous l’avez fait : taux_participation = Votants / Inscrits × 100.
 
-Le fichier brut `general_results.csv` n'est pas versionne dans ce depot car GitHub limite les fichiers a 100 MB.
+4. Vérifier la faisabilité (métier, technique, données, qualité, représentativité)
+Vous avez rempli la grille et obtenu un score de 14/16.
 
-- Source directe : <https://object.files.data.gouv.fr/data-pipeline-open/elections/general_results.csv>
-- Page officielle : <https://www.data.gouv.fr/datasets/donnees-des-elections-agregees/>
 
-Place simplement `general_results.csv` a la racine du projet avant l'execution du script EDA.
 
-Le notebook de prediction utilise aussi les fichiers prepares dans `data/` :
+1. Clarifier la décision à améliorer
+Vous l’avez fait : adapter les campagnes de communication en fonction des niveaux de participation attendus.
 
-- `data/elections_2014.csv`
-- `data/elections_2020.csv`
-- `data/elections_2026.csv`
-- `data/population.csv`
-- `data/chomage.csv`
-- `data/revenus_pauvrete.csv`
-- `data/crimes_delits.csv`
+2. Reformuler en question analytique
+Vous l’avez fait : prédire le taux de participation 2032 en corrigeant l’effet Covid de 2020.
 
-## Installation conseillee
+3. Identifier la variable cible
+Vous l’avez fait : taux_participation = Votants / Inscrits × 100.
 
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install pandas numpy matplotlib seaborn scikit-learn scipy jupyter
-```
+4. Vérifier la faisabilité (métier, technique, données, qualité, représentativité)
+Vous avez rempli la grille et obtenu un score de 14/16.
+5. Définir les critères de succès
+Vous avez fixé une MAE < 2,5 points, un intervalle de confiance
 
-## Lancer l'analyse EDA
 
-```bash
-python3 eda_municipales_2014_2020_2026.py
-```
 
-Les sorties sont ecrites dans `outputs/`.
+# sCharger et inspecter vos fichiers de données
 
-## Lancer le notebook de prediction
 
-```bash
-jupyter notebook analysis_municipales_2032.ipynb
-```
 
-Le notebook :
+Passer à l’action concrète (étape suivante)
+Une fois le cadrage validé, la première étape technique est :
 
-- charge les donnees ;
-- inspecte et harmonise les colonnes ;
-- calcule les variables electorales utiles ;
-- fusionne les sources contextuelles ;
-- produit les graphiques dans `outputs/figures/` ;
-- exporte `dataset_final.csv` ;
-- prepare un jeu de donnees machine learning ;
-- compare plusieurs approches de prise en compte de 2020 ;
-- propose une projection exploratoire 2032.
+Charger et inspecter vos fichiers de données
+elections_2014.csv, elections_2020.csv, elections_2026.csv
 
-## Limites de l'approche predictive
 
-- Les resultats dependent fortement de la qualite et de la granularite des CSV telecharges.
-- La projection 2032 est exploratoire : elle prolonge le dernier contexte observe, sans scenario macroeconomique futur detaille.
-- Avec seulement trois elections municipales, les modeles sont utiles pour preparer l'analyse predictive, mais pas pour conclure seuls sur une prevision definitive.
+
+# cCharger et inspecter vos fichiers de données
+
+
+
+population.csv, chomage.csv, revenus_pauvrete.csv, crimes_delits.csv
+
+Comme dans le notebook fil rouge (vélos), vous devez :
+
+Lire chaque fichier avec pandas
+
+Normaliser les noms de colonnes (ex: Code de la commune → code_insee, Inscrits → inscrits)
+
+Vérifier les types, les valeurs manquantes, les doublons
+
+Construire la variable taux_participation
