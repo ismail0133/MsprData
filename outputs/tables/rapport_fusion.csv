@@ -1,5 +1,0 @@
-﻿dataset,status,cles_utilisees,lignes_avant,lignes_apres,jointures_reussies,lignes_sans_match
-population,fusion_ok,['code_commune'],79702,79702,78918,784
-chomage,fusion_ok,"['code_commune', 'annee']",79702,79702,79702,0
-revenus_pauvrete,fusion_ok,['code_commune'],79702,79702,71786,7916
-crimes_delits,fusion_ok,"['code_commune', 'annee']",79702,79702,79702,0

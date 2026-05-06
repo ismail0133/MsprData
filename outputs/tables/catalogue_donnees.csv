@@ -1,8 +1,0 @@
-﻿dataset,chemin,present
-elections_2014,/Users/ismailiraqi/Data prediction/data/elections_2014.csv,True
-elections_2020,/Users/ismailiraqi/Data prediction/data/elections_2020.csv,True
-elections_2026,/Users/ismailiraqi/Data prediction/data/elections_2026.csv,True
-population,/Users/ismailiraqi/Data prediction/data/population.csv,True
-chomage,/Users/ismailiraqi/Data prediction/data/chomage.csv,True
-revenus_pauvrete,/Users/ismailiraqi/Data prediction/data/revenus_pauvrete.csv,True
-crimes_delits,/Users/ismailiraqi/Data prediction/data/crimes_delits.csv,True

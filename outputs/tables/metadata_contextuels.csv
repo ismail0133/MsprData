@@ -1,5 +1,0 @@
-﻿dataset_name,rename_map,duplicate_rows_before_aggregation,n_rows_after_preprocess
-population,{},0,34990
-chomage,{},0,104625
-revenus_pauvrete,{},0,31361
-crimes_delits,{'annee_source': 'annee'},0,34920

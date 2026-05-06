@@ -1,8 +1,0 @@
-id_election,id_brut_miom,code_departement,code_commune,libelle_commune,code_bv,inscrits,abstentions,votants,blancs,nuls,exprimes
-2026_muni_t2,74105_0002,74,74105,Douvaine,0002,1280,569,711,12.0,-2,701
-2026_muni_t1,26242_0001,26,26242,Le Poët-en-Percip,0001,21,6,15,1.0,-1,15
-2026_muni_t1,41205_0001,41,41205,Saint-Cyr-du-Gault,0001,157,157,0,5.0,-84,79
-2026_muni_t1,60357_0001,60,60357,Léglantiers,0001,379,56,323,9.0,-9,323
-2026_muni_t1,60400_0001,60,60400,Le Mesnil-sur-Bulles,0001,209,-3,212,8.0,109,95
-2026_muni_t1,60466_0001,60,60466,Noroy,0001,169,70,99,7.0,-7,99
-2026_muni_t1,60610_0001,60,60610,Sempigny,0001,566,128,438,5.0,-3,436

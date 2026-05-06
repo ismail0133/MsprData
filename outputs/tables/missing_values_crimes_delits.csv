@@ -1,6 +1,0 @@
-﻿colonne,nb_manquants,pct_manquants,dtype
-annee_source,0,0.0,int64
-code_commune,0,0.0,str
-nb_indicateurs,0,0.0,int64
-nombre_faits,0,0.0,float64
-taux_criminalite,0,0.0,float64

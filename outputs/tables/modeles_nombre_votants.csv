@@ -1,7 +1,0 @@
-﻿scenario,cible,modele,mae,rmse,r2,n_train,n_test,n_features
-covid_pondere,nombre_votants,Random forest,92.267,650.227,0.917,63701,16000,17
-avec_covid,nombre_votants,Random forest,92.294,651.632,0.916,63701,16000,17
-avec_covid,nombre_votants,Regression lineaire,305.85,1139.326,0.745,63701,16000,17
-covid_pondere,nombre_votants,Regression lineaire,308.953,1144.755,0.742,63701,16000,17
-sans_2020,nombre_votants,Random forest,283.99,9285.432,0.148,35756,8986,17
-sans_2020,nombre_votants,Regression lineaire,430.364,10787.659,-0.15,35756,8986,17

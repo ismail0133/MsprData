@@ -127,3 +127,45 @@ predictions_2032.csv : liste des communes et leur taux de participation prédit 
 
 12. Conclusion
 Ce travail démontre qu’il est possible, à partir de données électorales et socio‑économiques, de construire un modèle prédictif fiable du taux de participation. Les résultats obtenus permettent d’orienter les campagnes de communication : renforcer la mobilisation dans les communes à faible participation attendue, ajuster les moyens ailleurs. Le notebook est entièrement reproductible et peut être réexécuté pour les élections futures.
+
+
+
+
+<!-- Pourquoi l’année 2020 est‑elle une anomalie dans les séries électorales ? -->
+Les élections municipales de 2020 se sont déroulées dans un contexte exceptionnel lié à la pandémie de Covid‑19. Voici les principaux facteurs qui rendent cette année non comparable aux autres (2014, 2026) et qui justifient son exclusion de la modélisation pour prédire 2032.
+
+1. Contexte sanitaire et calendrier perturbé
+Premier tour : 15 mars 2020 – alors que la pandémie se propageait rapidement en France.
+
+Deuxième tour : initialement prévu le 22 mars, il a été reporté au 28 juin 2020 en raison du confinement national.
+
+Confinement strict : du 17 mars au 11 mai 2020, la population était confinée, les déplacements limités, et la vie citoyenne bouleversée.
+
+2. Impact direct sur la participation électorale
+Crainte sanitaire : de nombreux électeurs ont évité de se rendre aux urnes par peur de contamination.
+
+Difficultés logistiques : bureaux de vote réaménagés, gestes barrières, masques obligatoires, nombre de personnes limité simultanément.
+
+Absence de campagne traditionnelle : les meetings, porte‑à‑porte et distributions de tracts ont été annulés ou réduits.
+
+Taux de participation historiquement bas : au premier tour, la participation nationale est tombée à 44,7 % (contre 63,5 % en 2014). Au second tour, elle fut de 41,6 % – des niveaux jamais observés sous la Ve République pour des municipales.
+
+<!-- RGPD -->
+
+Mon projet ne soulève pas de problème majeur au regard du RGPD car les données que vous traitez sont anonymisées ou pseudonymisées et ne sont pas considérées comme des données personnelles. Cette analyse se base sur les principes et les derniers cadrages de la CNIL.
+
+Le RGPD protège les données à caractère personnel, c'est-à-dire toute information se rapportant à une personne physique identifiée ou identifiable. Voici pourquoi votre projet est conforme :
+
+Les données que vous utilisez sont anonymisées : Votre modèle exploite des données officielles (taux de participation, taux de chômage, population...) qui sont des statistiques agrégées au niveau de la commune. Ces informations ne sont pas liées à un nom ou une adresse particulière et ne sont donc pas considérées comme des données personnelles.
+
+Le code INSEE est une pseudonymisation forte : Le numéro INSEE identifie la commune, pas la personne. Cet identifiant "public" et partagé par l'ensemble de la population de la collectivité. Il ne permet donc pas d'identifier directement ou indirectement une personne physique spécifique.
+
+Vous ne collectez ni ne traitez aucune donnée individuelle : Vous n'utilisez que des opendata publics (datasets de l'INSEE, du Ministère de l'Intérieur). Vous n'avez pas accès à des données de listes électorales contenant des noms, adresses ou préférences.
+
+Cependant, pour un projet de cette nature et dans une perspective académique (MSPR), il est toujours judicieux de suivre quelques bonnes pratiques de transparence, comme l’explique la CNIL.
+
+Voici comment encadrer ce projet et le valoriser dans votre rapport :
+
+Principe de minimisation : Vous n'utilisez que des données strictement nécessaires à la prédiction (population, revenu médian...), ce qui est conforme à l'esprit du RGPD.
+
+Principe de transparence : Vous pouvez mentionner dans votre rapport que toutes les données utilisées proviennent de sources publiques ouvertes (OpenData) et sont traitées de manière agrégée, ce qui vous dispense d’une information individuelle des "personnes concernées".
