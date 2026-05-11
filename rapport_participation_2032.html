@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Rapport prédiction municipales 2032</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        h1 { color: #2c3e50; }
+        h2 { color: #34495e; border-bottom: 1px solid #ccc; }
+        table { border-collapse: collapse; width: 100%; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+    </style>
+</head>
+<body>
+    <h1>Prédiction du taux de participation – Municipales 2032</h1>
+    <h2>Performances du modèle (Random Forest)</h2>
+    <p><strong>MAE</strong> (erreur absolue moyenne) : <strong>3.05</strong> points</p>
+    <p><strong>R²</strong> (coefficient de détermination) : <strong>0.878</strong></p>
+
+    <h2>Top 10 communes avec la plus forte participation prédite</h2>
+    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>code_commune</th>
+      <th>taux_2032_pred</th>
+      <th>cluster</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>54354</td>
+      <td>96.091979</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>07092</td>
+      <td>96.091979</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>11282</td>
+      <td>94.235022</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>88493</td>
+      <td>94.108531</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>54424</td>
+      <td>93.392696</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>07144</td>
+      <td>93.206344</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>58202</td>
+      <td>92.579149</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>38550</td>
+      <td>92.396506</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>80334</td>
+      <td>92.202335</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>43014</td>
+      <td>92.161573</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+
+    <h2>Top 10 communes avec la plus faible participation prédite</h2>
+    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>code_commune</th>
+      <th>taux_2032_pred</th>
+      <th>cluster</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>60478</td>
+      <td>44.711367</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>55169</td>
+      <td>44.216506</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>54389</td>
+      <td>44.067031</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>59264</td>
+      <td>43.945532</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>39258</td>
+      <td>43.818615</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>25307</td>
+      <td>43.633780</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>57282</td>
+      <td>43.372532</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>57475</td>
+      <td>42.729699</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>77323</td>
+      <td>42.677827</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>41205</td>
+      <td>21.112824</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+
+    <h2>Distribution des prédictions</h2>
+    <img src="distribution_2032.png" alt="Histogramme" style="max-width:100%;">
+    <p><em>Remarque : assurez-vous que le fichier 'distribution_2032.png' existe dans le même dossier.</em></p>
+</body>
+</html>

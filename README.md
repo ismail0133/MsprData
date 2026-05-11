@@ -169,3 +169,39 @@ Voici comment encadrer ce projet et le valoriser dans votre rapport :
 Principe de minimisation : Vous n'utilisez que des données strictement nécessaires à la prédiction (population, revenu médian...), ce qui est conforme à l'esprit du RGPD.
 
 Principe de transparence : Vous pouvez mentionner dans votre rapport que toutes les données utilisées proviennent de sources publiques ouvertes (OpenData) et sont traitées de manière agrégée, ce qui vous dispense d’une information individuelle des "personnes concernées".
+
+
+
+
+
+
+
+
+ <!-- Ajouts possibles -->
+ Nouvelles variables explicatives (features)
+Données météorologiques : ajouter le taux de pluie, la température moyenne le jour du scrutin. Impact possible sur la participation.
+
+Distance aux bureaux de vote : commune rurale vs urbaine, temps de trajet moyen.
+
+Taux d’équipement numérique : accès à internet, possibilité de vote électronique (si applicable).
+
+Données politiques : nombre de listes en présence, score du maire sortant, alternance politique.
+
+Projections démographiques INSEE : remplacer la population fixe par une estimation 2032 (tendance 2014‑2026).
+
+2. Modèles alternatifs ou avancés
+Gradient Boosting (XGBoost, LightGBM, CatBoost) : souvent plus performant que Random Forest.
+
+Régression quantile : pour prédire des fourchettes (intervalle de confiance).
+
+Séries temporelles (ARIMA, Prophet) : si l’on modélise chaque commune séparément (beaucoup de séries, plus lourd).
+
+Modèle hiérarchique (multiniveau) : pour capturer les effets régionaux (département, région).
+
+3. Validation robuste et optimisation
+Validation croisée temporelle : entraînement sur 2014, test sur 2026 – vous l’avez partiellement fait.
+
+GridSearch / RandomizedSearch : optimiser les hyperparamètres (n_estimators, max_depth, min_samples_split).
+
+Évaluation par région : vérifier si le modèle est aussi performant en Île‑de‑France qu’en zone rurale.
+
