@@ -12,3 +12,4 @@ general_results.csv
 # Cache Matplotlib genere localement
 outputs/mplconfig/
 model_pipeline.pkl
+model_pipeline.pkl
